@@ -1,9 +1,12 @@
 import React from "react";
 import img1 from "../assets/images/img1.png";
 
+
 const Home = () => {
   return (
+    
     <div className="container home">
+        <link rel="preload" as="image" href="imag1.png" />
       <div className="row">
           <div className="headerText rowLeft">
             <h2>
@@ -20,7 +23,7 @@ const Home = () => {
             <a href="#">Read More</a>
           </div>
           <div className="headerImage rowRight">
-            <img className="img-fluid" src={img1} alt="" srcset="" />
+            <img className="img-fluid" src={img1} alt="" />
           </div>
       </div>
     </div>

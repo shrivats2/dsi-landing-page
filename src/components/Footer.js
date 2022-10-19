@@ -8,7 +8,7 @@ const Footer = () => {
       <section className="container" >
       <div className="threeRow">
         <div className="contactWrapper rowLeft">
-          <img src={logo} alt="" srcset="" />
+          <img src={logo} alt="logo"/>
           <h3>PT Dwidasa Samsara Indonesia</h3>
 
           <ul>
@@ -29,7 +29,7 @@ const Footer = () => {
           <img style={{
             height: "100%",
             width:"100%"
-          }} src={company} />
+          }} src={company} alt="serviceslogo"/>
         </div>
       </div>
       </section>

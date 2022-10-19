@@ -9,7 +9,7 @@ const Nav = () => {
   return (
     <nav>
       <input type="checkbox" id="check" />
-      <label for="check"> 
+      <label > 
         <img id="btn" src={bar} />
         <i className="fa fa-times" id="cancel"></i>
       </label>

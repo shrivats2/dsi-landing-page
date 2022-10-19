@@ -6,7 +6,7 @@ const About = () => {
       <section className="container about">
         <div className="aboutRow">
             <div className="aboutImage rowLeft">
-              <img className="img-fluid" src={img2} alt="" srcset="" />
+              <img className="img-fluid" src={img2} alt="logo" />
             </div>
             <div className="aboutText rowRight">
               <h2>

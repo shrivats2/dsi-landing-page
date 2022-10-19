@@ -10,7 +10,7 @@ const Product = () => {
         <div className="threeRow">
             <div className="serviceBox rowLeft">
               <div className="iconHolder">
-                <img src={productDescription} alt="" />
+                <img src={productDescription} alt="description" />
               </div>
               <h2>Our Product</h2>
               <p>
@@ -21,7 +21,7 @@ const Product = () => {
             </div>
             <div className="serviceBox rowMiddle">
               <div className="iconHolder">
-              <img src={verified} alt="" />
+              <img src={verified} alt=" verify" />
               </div>
               <h2>Our Service</h2>
               <p>
@@ -33,7 +33,7 @@ const Product = () => {
             </div>
             <div className="serviceBox rowRight">
               <div className="iconHolder">
-              <img src={cogWheel} alt="" />
+              <img src={cogWheel} alt="cogwheel" />
               </div>
               <h2>Our Technology</h2>
               <p>
