@@ -5,14 +5,23 @@ import { faEnvelope, faHouse, faSyncAlt} from '@fortawesome/free-solid-svg-icons
 import logo from "../assets/images/logo.png";
 import bar from "../assets/images/bar.png";
 
+
+function Click() {
+  var navbar = document.querySelector(".navbar-collapse ul");
+  navbar.classList.toggle("active");
+  console.log(navbar);
+}
+
+
 const Nav = () => {
   return (
     <nav>
       <input type="checkbox" id="check" />
-      <label > 
-        <img id="btn" src={bar} />
-        <i className="fa fa-times" id="cancel"></i>
-      </label>
+      <div href="#" className="toggle-button" onClick={Click}>
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+      </div>
       <section className="navContainer">
         <img src={logo} id="logo" alt="" />
         <section className="navbar-collapse">
@@ -30,9 +39,9 @@ const Nav = () => {
           </ul>
         </section>
         <section className="rightIcon">
-        <FontAwesomeIcon icon={faHouse} size={'3x'}/>
-        <FontAwesomeIcon icon={faEnvelope} size={'3x'} />
-        <FontAwesomeIcon icon={faSyncAlt}   size={'3x'}  />
+        <FontAwesomeIcon icon={faHouse} className="fas"/>
+        <FontAwesomeIcon icon={faEnvelope} className="fas" />
+        <FontAwesomeIcon icon={faSyncAlt} className="fas" />
         </section>
       </section>
     </nav>
