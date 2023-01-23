@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/dsi-landing-page/static/css/main.eff6cf59.css",
+    "main.js": "/dsi-landing-page/static/js/main.f35ec946.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/dsi-landing-page/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/dsi-landing-page/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/dsi-landing-page/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/dsi-landing-page/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/dsi-landing-page/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/img1.png": "/dsi-landing-page/static/media/img1.80f898faf6c4c0cb5006.png",
+    "static/media/img2.png": "/dsi-landing-page/static/media/img2.48dc01f8109f8c6d1895.png",
+    "static/media/company.png": "/dsi-landing-page/static/media/company.4cf2c98f7220faf11ccc.png",
+    "index.html": "/dsi-landing-page/index.html",
+    "main.eff6cf59.css.map": "/dsi-landing-page/static/css/main.eff6cf59.css.map",
+    "main.f35ec946.js.map": "/dsi-landing-page/static/js/main.f35ec946.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eff6cf59.css",
+    "static/js/main.f35ec946.js"
+  ]
+}
